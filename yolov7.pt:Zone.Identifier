@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/WongKinYiu/yolov7?tab=readme-ov-file
+HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/511187726/b0243edf-9fb0-4337-95e1-42555f1b37cf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240725%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240725T065613Z&X-Amz-Expires=300&X-Amz-Signature=b711a846ca45cf94d8b43ee4c4457942552e56260402d671d1d5f1f64a0387e8&X-Amz-SignedHeaders=host&actor_id=111369861&key_id=0&repo_id=511187726&response-content-disposition=attachment%3B%20filename%3Dyolov7.pt&response-content-type=application%2Foctet-stream
