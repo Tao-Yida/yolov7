@@ -8,7 +8,6 @@ from copy import deepcopy
 from pathlib import Path
 from threading import Thread
 
-import edge_detection
 import numpy as np
 import torch.distributed as dist
 import torch.nn as nn
@@ -26,7 +25,7 @@ import test  # import test.py to get mAP after each epoch
 from models.experimental import attempt_load
 from models.yolo import Model
 from utils.autoanchor import check_anchors
-from create_dataloader import create_dataloader
+from utils.datasets import create_dataloader
 from utils.general import (
     labels_to_class_weights,
     increment_path,
@@ -780,7 +779,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("--epochs", type=int, default=300)
     parser.add_argument(
-        "--batch-size", type=int, default=8, help="total batch size for all GPUs"
+        "--batch-size", type=int, default=16, help="total batch size for all GPUs"
     )
     parser.add_argument(
         "--img-size",

@@ -1,8 +1,8 @@
 # parameters
-nc: 1 # number of classes
+nc: 2 # number of classes
 depth_multiple: 1 # model depth multiple
 width_multiple: 1 # layer channel multiple
-names: ["Building"] # class names
+names: ["mask", "no_mask"] # class names
 
 # anchors
 anchors:
